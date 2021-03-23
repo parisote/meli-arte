@@ -1,0 +1,20 @@
+MELARTE-MELIARTE-ARTELI
+
+home
+	- carousel, premium(?)
+	- ultimas subidas
+	- ofertas
+	- explorar por precio
+
+categoria/tipo
+/pinturas
+/obras
+/fotos
+/artistas
+/ofertas
+	* filtros (categoria/tipo)
+
+registro (login/singup)
+
+
+https://www.singulart.com/es/
