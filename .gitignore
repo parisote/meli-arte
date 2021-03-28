@@ -3,3 +3,5 @@
 /WebPNT/*.user
 /WebPNT/*.config
 /packages*
+/*.vs
+/WebPNT/*.vs
