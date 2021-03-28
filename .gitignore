@@ -1,0 +1,4 @@
+/WebPNT/bin/*
+/WebPNT/obj/*
+*.user
+*.config
