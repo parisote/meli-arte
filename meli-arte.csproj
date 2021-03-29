@@ -68,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="src\public\index.html" />
+    <Content Include="src\public\style\fontawesome\css\font-awesome.css" />
+    <Content Include="src\public\style\fontawesome\css\font-awesome.min.css" />
+    <Content Include="src\public\style\fontawesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="src\public\style\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +79,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="src\public\style\fontawesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="src\public\style\fontawesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="src\public\style\fontawesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="src\public\style\fontawesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="src\public\style\fontawesome\fonts\FontAwesome.otf" />
+    <Content Include="src\public\style\fontawesome\less\animated.less" />
+    <Content Include="src\public\style\fontawesome\less\bordered-pulled.less" />
+    <Content Include="src\public\style\fontawesome\less\core.less" />
+    <Content Include="src\public\style\fontawesome\less\fixed-width.less" />
+    <Content Include="src\public\style\fontawesome\less\font-awesome.less" />
+    <Content Include="src\public\style\fontawesome\less\icons.less" />
+    <Content Include="src\public\style\fontawesome\less\larger.less" />
+    <Content Include="src\public\style\fontawesome\less\list.less" />
+    <Content Include="src\public\style\fontawesome\less\mixins.less" />
+    <Content Include="src\public\style\fontawesome\less\path.less" />
+    <Content Include="src\public\style\fontawesome\less\rotated-flipped.less" />
+    <Content Include="src\public\style\fontawesome\less\screen-reader.less" />
+    <Content Include="src\public\style\fontawesome\less\stacked.less" />
+    <Content Include="src\public\style\fontawesome\less\variables.less" />
+    <Content Include="src\public\style\fontawesome\scss\font-awesome.scss" />
+    <Content Include="src\public\style\fontawesome\scss\_animated.scss" />
+    <Content Include="src\public\style\fontawesome\scss\_bordered-pulled.scss" />
+    <Content Include="src\public\style\fontawesome\scss\_core.scss" />
+    <Content Include="src\public\style\fontawesome\scss\_fixed-width.scss" />
+    <Content Include="src\public\style\fontawesome\scss\_icons.scss" />
+    <Content Include="src\public\style\fontawesome\scss\_larger.scss" />
+    <Content Include="src\public\style\fontawesome\scss\_list.scss" />
+    <Content Include="src\public\style\fontawesome\scss\_mixins.scss" />
+    <Content Include="src\public\style\fontawesome\scss\_path.scss" />
+    <Content Include="src\public\style\fontawesome\scss\_rotated-flipped.scss" />
+    <Content Include="src\public\style\fontawesome\scss\_screen-reader.scss" />
+    <Content Include="src\public\style\fontawesome\scss\_stacked.scss" />
+    <Content Include="src\public\style\fontawesome\scss\_variables.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -82,6 +119,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
