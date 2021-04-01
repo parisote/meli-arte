@@ -8,26 +8,32 @@
     <title>MeliARTE</title>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
+
+<script type="application/javascript">
+  function multiExecute(){
+    console.log("test")
+  }
+</script>
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light navbar" style="background-color: #e3f2fd;">
         <div class="container-fluid">
-            <a href="#"><i class="fa fa-camera-retro"></i></a>MeliARTE
+            <a href="./index.html"><i class="fa fa-camera-retro"></i></a>MeliARTE
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="./ofertas">Pinturas</a>
+                        <a class="nav-link" href="./pinturas/pinturas.html">Pinturas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./ofertas">Obras</a>
+                        <a class="nav-link" href="./obras/obras.html">Obras</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./ofertas">Fotos</a>
+                        <a class="nav-link" href="./fotos/fotos.html">Fotos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./ofertas">Artistas</a>
+                        <a class="nav-link" href="./artistas/artistas.html">Artistas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./ofertas">Ofertas semanales</a>
+                        <a class="nav-link" href="./ofertas/ofertas.html">Ofertas semanales</a>
                     </li>
                 </ul>
             </div>
@@ -53,21 +59,21 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active img__wrap">
-                    <img class="img__img" src="https://images.unsplash.com/photo-1617282514283-19b4a84ffffe?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" style="width:100%"/>
+                    <img class="img__img" src="https://images.unsplash.com/photo-1473225071450-1f1462d5aa92?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjd8fHN0cmVldHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" style="width:100%"/>
                     <div class="img__description_layer">
-                        <p class="img__description">Foto test1.</p>
+                        <p class="img__description">Proximos artistas emergentes</p>
                     </div>
                 </div>
                   <div class="carousel-item img__wrap">
-                      <img class="img__img" src="https://images.unsplash.com/photo-1617034840325-b10d81550042?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3NHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" style="width:100%"/>
+                      <img class="img__img" src="https://images.unsplash.com/photo-1524744353764-50137f5b6656?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTl8fHBhaW50JTIwZ3JleXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" style="width:100%"/>
                       <div class="img__description_layer">
-                          <p class="img__description">Foto test2.</p>
+                          <p class="img__description">Ultimate Gray (gris) + Iluminante: El color Pantone del 2021!</p>
                       </div>
                   </div>
                   <div class="carousel-item img__wrap">
-                      <img class="img__img" src="https://images.unsplash.com/photo-1521344151738-afd364618101?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDIzfDZzTVZqVExTa2VRfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" style="width:100%"/>
+                      <img class="img__img" src="https://images.unsplash.com/photo-1578269174936-2709b6aeb913?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8d2lufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" style="width:100%"/>
                       <div class="img__description_layer">
-                          <p class="img__description">Foto test3.</p>
+                          <p class="img__description">MeliARTE gana premio startup 2022</p>
                       </div>
                   </div>
               </div>
@@ -99,7 +105,7 @@
         <div class="container-me">
           <h4><b>Muhamad Rizal Firmansyah</b></h4>
           <div class="divright">
-            <i class="fa fa-heart"></i>
+            <i class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute()"></i>
           </div>
         </div>
       </div>
@@ -109,7 +115,7 @@
         <div class="container-me">
           <h4><b>Jonatan Pie</b></h4>
           <div class="divright">
-            <i class="fa fa-heart"></i>
+            <i class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute()"></i>
           </div>
         </div>
       </div>
@@ -119,7 +125,7 @@
       <div class="container-me">
         <h4><b>Jakob Rosen</b></h4>
         <div class="divright">
-          <i class="fa fa-heart"></i>
+          <i class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute()"></i>
         </div>
       </div>
     </div>
@@ -129,7 +135,7 @@
     <div class="container-me">
       <h4><b>Valdemaras D.</b></h4>
       <div class="divright">
-        <i class="fa fa-heart"></i>
+        <i class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute()"></i>
       </div>
     </div>
   </div>
@@ -139,7 +145,7 @@
   <div class="container-me">
     <h4><b>Daniela Izotenko</b></h4>
     <div class="divright">
-      <i class="fa fa-heart"></i>
+      <i class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute()"></i>
     </div>
   </div>
 </div>
@@ -149,7 +155,7 @@
 <div class="container-me">
   <h4><b>Vincent Ledvina</b></h4>
   <div class="divright">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute()"></i>
   </div>
 </div>
 </div>

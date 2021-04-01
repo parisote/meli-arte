@@ -32,7 +32,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50px;
 
   /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;
@@ -61,7 +60,6 @@ html {
   display: inline-block;
 }
 
-/* On mouse-over, add a deeper shadow */
 .card-me:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -90,3 +88,17 @@ html {
   text-align: right;
   padding: 10px;
 }
+
+#button-heart {
+    font-size: 24px;
+    color: red;
+    background: #efefef;
+    border-color: #efefef;
+    cursor: pointer;
+  }
+
+  #button-heart:active {
+      position: relative;
+      color: red;
+      top: 1px;
+  }
