@@ -4,6 +4,10 @@
   border: 0;
 }
 
+body{
+  background-color: #efefef;
+}
+
 html {
   font-family: helvetica, arial, sans-serif;
 }
@@ -11,7 +15,7 @@ html {
 /* relevant styles */
 .img__wrap {
   position: relative;
-  max-height: 598px;
+  max-height: 400px;
   width: 100%;
 }
 
@@ -28,6 +32,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 50px;
 
   /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;
@@ -45,4 +50,43 @@ html {
 
 .img__wrap:hover .img__description {
   transform: translateY(0);
+}
+
+.card-me {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-top:10px;
+  margin-bottom:10px;
+  display: inline-block;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card-me:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.listContainer {
+  columns: 3 300px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 8px;
+}
+
+.container-me {
+  padding: 2px 16px;
+  text-align: left;
+}
+
+.img-me {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: 400px;
+}
+
+.divright {
+  text-align: right;
+  padding: 10px;
 }
