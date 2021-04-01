@@ -91,13 +91,27 @@ html {
 
 #button-heart {
     font-size: 24px;
-    color: red;
+    color: black;
     background: #efefef;
     border-color: #efefef;
     cursor: pointer;
   }
 
   #button-heart:active {
+      position: relative;
+      color: black;
+      top: 1px;
+  }
+
+  #button-heart-red {
+      font-size: 24px;
+      color: red;
+      background: #efefef;
+      border-color: #efefef;
+      cursor: pointer;
+  }
+
+  #button-heart-red:active {
       position: relative;
       color: red;
       top: 1px;

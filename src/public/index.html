@@ -10,8 +10,12 @@
 </head>
 
 <script type="application/javascript">
-  function multiExecute(){
-    console.log("test")
+  function multiExecute(element){
+    if(element.id == 'button-heart'){
+      element.id = 'button-heart-red'
+    } else {
+      element.id = 'button-heart'
+    }
   }
 </script>
 <body>
@@ -41,7 +45,7 @@
         <div class="nav navbar-right">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="./registrarse">Registrarse</a>
+                    <a class="nav-link" href="./registrarse/registro.html">Registrarse</a>
                 </li>
             </ul>
         </div>
@@ -56,6 +60,7 @@
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active img__wrap">
@@ -105,37 +110,37 @@
         <div class="container-me">
           <h4><b>Muhamad Rizal Firmansyah</b></h4>
           <div class="divright">
-            <i class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute()"></i>
+            <i name='uno' class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute(document.getElementsByName('uno')[0])"></i>
           </div>
         </div>
       </div>
 
       <div class="card-me">
-        <img class="img-me" src="https://images.unsplash.com/photo-1539400504539-7918aa66f657?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDMxfDZzTVZqVExTa2VRfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=350&q=60"/>
+        <img class="img-me" src="https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8cGFpbnR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=350&q=60"/>
         <div class="container-me">
-          <h4><b>Jonatan Pie</b></h4>
+          <h4><b>Markus Spiske</b></h4>
           <div class="divright">
-            <i class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute()"></i>
+            <i name='dos' class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute(document.getElementsByName('dos')[0])"></i>
           </div>
         </div>
       </div>
 
       <div class="card-me">
-      <img class="img-me" src="https://images.unsplash.com/photo-1616709268128-cf847356c69f?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDQyfDZzTVZqVExTa2VRfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=350&q=60"/>
+      <img class="img-me" src="https://images.unsplash.com/photo-1588571590924-433cc2020a12?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhdHVlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=350&q=60"/>
       <div class="container-me">
-        <h4><b>Jakob Rosen</b></h4>
+        <h4><b>Levi Meir Clancy</b></h4>
         <div class="divright">
-          <i class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute()"></i>
+          <i name='tres' class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute(document.getElementsByName('tres')[0])"></i>
         </div>
       </div>
     </div>
 
     <div class="card-me">
-    <img class="img-me" src="https://images.unsplash.com/photo-1561385292-66344cf95901?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDUzfDZzTVZqVExTa2VRfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=350&q=60"/>
+    <img class="img-me" src="https://images.unsplash.com/photo-1556139954-ec19cce61d61?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjV8fHBhaW50fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=350&q=60"/>
     <div class="container-me">
-      <h4><b>Valdemaras D.</b></h4>
+      <h4><b>Paweł Czerwiński</b></h4>
       <div class="divright">
-        <i class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute()"></i>
+        <i name='cuatro' class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute(document.getElementsByName('cuatro')[0])"></i>
       </div>
     </div>
   </div>
@@ -145,7 +150,7 @@
   <div class="container-me">
     <h4><b>Daniela Izotenko</b></h4>
     <div class="divright">
-      <i class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute()"></i>
+      <i name='cinco' class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute(document.getElementsByName('cinco')[0])"></i>
     </div>
   </div>
 </div>
@@ -155,7 +160,7 @@
 <div class="container-me">
   <h4><b>Vincent Ledvina</b></h4>
   <div class="divright">
-    <i class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute()"></i>
+    <i name='seis' class="fa fa-shopping-cart" id="button-heart" onclick="multiExecute(document.getElementsByName('seis')[0])"></i>
   </div>
 </div>
 </div>
