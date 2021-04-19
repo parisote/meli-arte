@@ -92,6 +92,37 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\basquiat\cuadro1\obra.jpg" />
+    <Content Include="images\basquiat\cuadro1\obraReal.jpg" />
+    <Content Include="images\basquiat\cuadro2\obra.jpg" />
+    <Content Include="images\basquiat\cuadro2\obraReal.jpg" />
+    <Content Include="images\basquiat\cuadro3\obraDog.jpg" />
+    <Content Include="images\basquiat\cuadro3\obraReal.jpg" />
+    <Content Include="images\basquiat\cuadro4\obra.jpg" />
+    <Content Include="images\basquiat\cuadro4\obraReal.jpg" />
+    <Content Include="images\basquiat\cuadro5\obra.jpg" />
+    <Content Include="images\basquiat\cuadro5\obraReal.jpg" />
+    <Content Include="images\basquiat\cuadro6\obra.jpg" />
+    <Content Include="images\basquiat\cuadro6\obraReal.jpg" />
+    <Content Include="images\basquiat\cuadro7\obra.jpeg" />
+    <Content Include="images\basquiat\cuadro7\obra.jpg" />
+    <Content Include="images\basquiat\cuadro8\obra.jpg" />
+    <Content Include="images\basquiat\cuadro8\obraReal.png" />
+    <Content Include="images\basquiat\cuadro9\obra.jpg" />
+    <Content Include="images\basquiat\cuadro9\obraReal.jpg" />
+    <Content Include="images\basquiat\headerIII.jpg" />
+    <Content Include="images\basquiat\obraReal.jpg" />
+    <Content Include="images\carru1.jpg" />
+    <Content Include="images\carru2.jpg" />
+    <Content Include="images\carru3.jpg" />
+    <Content Include="images\carru4.jpg" />
+    <Content Include="images\carru5.jpg" />
+    <Content Include="images\face1.jpg" />
+    <Content Include="images\face2.jpg" />
+    <Content Include="images\face3.jpg" />
+    <Content Include="images\smile1.jpg" />
+    <Content Include="index.html" />
+    <Content Include="main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +155,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\basquiat\cuadro1\modeloReal.webp" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
