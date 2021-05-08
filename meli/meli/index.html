@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="main.css">
     <!--Bootstrap Css 'import'-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <script src="component.js"></script>
 </head>
 <body>
     <!--Solo un icono para desplegar el menú-->
@@ -25,25 +27,8 @@
                         <a class="nav-link" href="#cards">Obras</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#cards2">Obras opción 2</a>
+                        <a class="nav-link" href="#footer">Nosotros</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#footer">Footer</a>
-                    </li>
-                    <!--<li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>-->
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -88,158 +73,38 @@
         </div>
 
     </section>
+
     <section id="cards">
-
         <!-- Cards -->
-        <div class="container">
+        <div class="container" id="container">
             <div class="row">
-
-                <div class="col-12" style="text-align:center; margin-top:0.5em">
-                    <h1>Nuestros platos favoritos</h1>
-                </div>
-
-            </div>
-            <br />
-            <div class="row">
-
-                <div class="col-12 col-sm-6">
-                    <div class="card mb-0">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <div class="card-body">
-                                    <h5 class="card-title">Bird on Money</h5>
-                                    <p class="card-text">1981</p>
-                                    <a href="#" class="btn btn-primary">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-                                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <img class="card-img-top" src="./images/basquiat/cuadro1/obra.jpg" alt="obra" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6">
-                    <div class="card mb-0">
-                        <div class="row g-0">
-                            <div class="col-md-8">
-                                <img class="card-img-top d-block" src="./images/basquiat/cuadro3/obraDog.jpg" alt="obra" />
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card-body">
-                                    <h5 class="card-title">Boy and Dog in a Johnnypump</h5>
-                                    <p class="card-text">1982</p>
-                                    <a href="#" class="btn btn-primary">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-                                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <br />
-            <div class="row">
-
-                <div class="col-12 col-sm-6">
-                    <div class="card mb-3" style="max-height:32em">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <div class="card-body">
-                                    <h5 class="card-title">Untitled</h5>
-                                    <p class="card-text">1982</p>
-                                    <a href="#" class="btn btn-primary">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-                                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <img class="card-img-top" src="./images/basquiat/cuadro2/obra.jpg" alt="obraReal">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6">
-                    <div class="card mb-3" style="max-height:32em">
-                        <div class="row g-0">
-                            <div class="col-md-8">
-                                <img class="card-img-top d-block" src="./images/basquiat/cuadro4/obra.jpg" alt="obraReal">
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card-body">
-                                    <h5 class="card-title">Hollywood Africans</h5>
-                                    <p class="card-text">1983</p>
-                                    <a href="#" class="btn btn-primary">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-                                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <br />
-            <div class="row">
-
-                <div class="col-12 col-sm-6">
-                    <div class="card mb-3" style="max-height:32em">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <div class="card-body">
-                                    <h5 class="card-title">Flexible</h5>
-                                    <p class="card-text">1984</p>
-                                    <a href="#" class="btn btn-primary">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-                                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <img class="card-img-top d-block" src="./images/basquiat/cuadro5/obra.jpg" alt="obra" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6">
-                    <div class="card mb-3" style="max-height:32em">
-                        <div class="row g-0">
-                            <div class="col-md-8">
-                                <img class="card-img-top d-block" src="./images/basquiat/cuadro6/obra.jpg" alt="obraReal">
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card-body">
-                                    <h5 class="card-title">Head</h5>
-                                    <p class="card-text">1981</p>
-                                    <a href="#" class="btn btn-primary">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-                                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+              <div class="col-12" style="text-align:center; margin-top:0.5em">
+                <h1>Nuestras mejores obras</h1>
+              </div>
             </div>
         </div>
+        </br>
+        <div class="row" id="rowObras">
+        </div>
     </section>
-    <section id="cards2">
+
+    <script>
+    //SE PODRIA HACER POR FILE
+    var data = '[{"head":"Bird on Money","subheading":"1981","image":"./images/basquiat/cuadro1/obra.jpg"},{ "head":"Boy and Dog in a Johnnypump","subheading":"1982","image":"./images/basquiat/cuadro3/obraDog.jpg"},{"head":"Untitled","subheading":"1982","image":"./images/basquiat/cuadro2/obra.jpg"},{"head":"Hollywood Africans","subheading":"1983","image":"./images/basquiat/cuadro4/obra.jpg"},{"head":"Flexible","subheading":"1984","image":"./images/basquiat/cuadro5/obra.jpg"},{"head":"Head","subheading":"1981","image":"./images/basquiat/cuadro6/obra.jpg"}]';
+
+    var my_data = JSON.parse(data);
+
+    for(var x = 0; x < my_data.length; x++){
+      var newDiv = document.createElement("o-card");
+      newDiv.className = "col-sm-4";
+      newDiv.setAttribute('heading',my_data[x].head);
+      newDiv.setAttribute('subheading',my_data[x].subheading);
+      newDiv.setAttribute('image',my_data[x].image);
+      const body = document.querySelector('#rowObras');
+      body.append(newDiv)
+    }
+    </script>
+    <!--<section id="cards2">
         <br />
         <div class="row">
 
@@ -438,7 +303,7 @@
         </div>
         </div>
         <br />
-    </section>
+    </section>-->
     <!-- Footer -->
     <footer id="footer" class="bg-light text-center text-lg-start">
         <!-- Grid container -->
